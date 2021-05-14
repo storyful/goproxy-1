@@ -1,13 +1,14 @@
 package goproxy_html_test
 
 import (
-	"github.com/elazarl/goproxy"
-	"github.com/elazarl/goproxy/ext/html"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
 	"testing"
+
+	"github.com/storyful/goproxy-1"
+	"github.com/storyful/goproxy-1/ext/html"
 )
 
 type ConstantServer int

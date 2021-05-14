@@ -2,14 +2,15 @@ package goproxy_image
 
 import (
 	"bytes"
-	. "github.com/elazarl/goproxy"
-	"github.com/elazarl/goproxy/regretable"
 	"image"
 	_ "image/gif"
 	"image/jpeg"
 	"image/png"
 	"io/ioutil"
 	"net/http"
+
+	. "github.com/storyful/goproxy-1"
+	"github.com/storyful/goproxy-1/regretable"
 )
 
 var RespIsImage = ContentTypeIs("image/gif",
