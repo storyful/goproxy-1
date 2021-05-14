@@ -1,3 +1,5 @@
 module github.com/storyful/goproxy-1
 
-require github.com/storyful/goproxy-1/ext v0.0.0-20190711103511-473e67f1d7d2
+go 1.16
+
+require github.com/storyful/goproxy-1/ext v0.0.0-20210514104424-b4317598aaa5
